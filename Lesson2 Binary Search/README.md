@@ -33,9 +33,9 @@
 >>   if list[mid] equals key 
 >>      break;
 >>   else if list[mid] > key
->>      left = mid + 1
+>>      right = mid - 1
 >>   else if list[mid] < key
->>      right = mid - 1;
+>>      left = mid + 1;
 >> ```
 
 > ## Practice!
