@@ -31,6 +31,7 @@
 >> you just implement a comparator in your object class or when you call sort
 >> ## Examples
 >> ## Python
+>>> Link to source: [Sorting in python](https://docs.python.org/3/howto/sorting.html)
 >>> ``` python
 >>> class Student:
 >>>     def __init__(self, name, grade, age):
