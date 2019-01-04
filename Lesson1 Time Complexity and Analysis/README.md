@@ -61,9 +61,22 @@
 # Analysis
 > ## What is Analysis?
 >> Analysis is just a basic study of the problem presented to you, time complexity is ties hand in hand in analysis, as you need it to
->> know what algorithm you should use   
+>> know what algorithm you should use  
 >> I will explain analysis along the way for each problem, as there isn't a general rule or anything
->> Here are some tips
+
+> ## Memory Limit
+>> Memory limit is not a huge thing in junior ccc, but I'll talk about it and there will be questions that you to analyze the memory   
+>> allocation, generally, this comes in when you have a huge array or 2D array of numbers or other big data types
+
+>> ## How is memory calculated?
+>>> Its calculated by bytes, so an data type each of a set amount of memory, so for int, theres 4 bytes,    
+>>> and the 'limits' you see on problems are in **M, or megabytes**, so a **million (1 000 000) bytes** is about **one megabyte**, 
+>>> so if you have an array of lets say 
+>>> 1 billion integers, the memory is **10 ^ 9 (1 billion) * 4 (each integer is 4 bytes)**, which is **4 billion**, and thats about
+>>> **4000 Megabyte***   
+>>> you basically count how much of the data type you are using, and their memory allocation in bytes are available online, which   
+>>> you can search up and find out, I'll be talkng about memory limits along the way
+
 > ## TIPS
 >> Read the question **CAREFULLY**   
 >> Make sure you don't miss any **important factors, constraints or properties**      
