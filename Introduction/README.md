@@ -72,8 +72,8 @@ and [IntelliJ IDEA](https://www.jetbrains.com/idea/) are also good. For eclipse,
 >> Common syntax errors
 
 # Final Step
-> I will use alot of sources from different websites, I will put links whereever I can, if you have any questions, concerns, or 
-> anything I can change, comment or make a push request whenever you feel like it :p   
+> I will use alot of sources from different websites, I will put links wherever I can, if you have any questions, concerns, or 
+> anything I can change, comment or make a pull request whenever you feel like it :p   
 > Now, you have seen what we are going to do, lets get started   
 > ## Lets Begin Our Journey!
 
