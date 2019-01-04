@@ -1,5 +1,5 @@
 # CCC-Junior-Prep
-> this is for beginner level people who need help to prep for the ccc
+> this is for beginner level people who need help to prep for the ccc, go to the introduction folder after reading this README file
 
 # Languages
 > ## Python
