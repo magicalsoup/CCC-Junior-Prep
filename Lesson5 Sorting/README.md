@@ -83,6 +83,5 @@
 >>>   sort(t, t + 100, cmp);
 >>> }
 >>> ```
-> I have some problems for you, go to the problems folder after you finish reading this lesson
 
 
