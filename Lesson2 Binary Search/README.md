@@ -1,4 +1,5 @@
-# Binary Search
+# Welcome To Lesson #2!
+## Binary Search
 > its a powerful sorting algorithm that can find objects in sub - linear time --> **O (log(n)) time, where n is the size of the array   
 > its used alot in competitve programming and as well in softwares and games
 > I will be focusing on the implementation and how it works
