@@ -65,8 +65,10 @@
 >> I will explain analysis along the way for each problem, as there isn't a general rule or anything
 
 > ## Memory Limit
->> Memory limit is not a huge thing in junior ccc, but I'll talk about it and there will be questions that you to analyze the memory   
->> allocation, generally, this comes in when you have a huge array or 2D array of numbers or other big data types
+>> Memory limit is not a huge thing in junior ccc, but I'll talk about it and there will be questions 
+>> that you to analyze the memory allocation,     
+>> generally, this comes in when you have a huge array    
+>> or 2D array of numbers or other big data types
 
 >> ## How is memory calculated?
 >>> Its calculated by bytes, so an data type each of a set amount of memory, so for int, theres 4 bytes,    
