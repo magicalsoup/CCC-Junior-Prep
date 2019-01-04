@@ -14,6 +14,7 @@
 >> Since the numbers will only be as big as **10 ^ 9**, an integer data type will suffice
 
 > ## Memory Limit
->> We only need to keep an array of integers the size of N, which is 50 000, so 50 000 * 4 = 200 000, or about **.5 megabytes**, as we keep
->> other stuff too, so we are definetly under the memory limit.
+>> We only need to keep an array of integers the size of N, which is 50 000, then we have 3 different objects with a single element, each
+>> with 4 bytes, so in total we have 50 000 * 4 * 4 * 4, or about **3.2 megabytes** so we are under the memory limit.    
+>> Please keep in mind that java uses memory in other stuff like variables, sorting and stuff, so your total memory might be around **30 megabytes**, but nonetheless, its still under the memory limit.
 
