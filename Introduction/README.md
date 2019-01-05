@@ -1,5 +1,5 @@
 # IDE
-> an IDE is an complier where you definitely need for contests like the CCC
+> an IDE is an complier where you will definitely need for contests like the CCC
 > ### So what to download?
 
 >> ### Python
@@ -38,7 +38,7 @@ and [IntelliJ IDEA](https://www.jetbrains.com/idea/) are also good. For eclipse,
 > ## 3. Time Complexity & Analysis
 >> Knowing how long your program will run is essential when seeing if your program will run under the time limit and see if your solution
 >> the problem is the intended solution  
->> The big **'O'** notation
+>> The big **'O'** notation   
 >> Know what to do for each problem
 
 > ## 4. Simple String Algorithms
