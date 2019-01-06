@@ -14,11 +14,11 @@ that for now, as I'm pretty sure its not going to appear in the CCC junior
 >> ## Java
 >>> java's ``` contains() ``` function basically does the same thing as the python code above,   
 >>> it checks if string ```a``` contains string ```b```   
->>> it has the same time complexity as python **O(L1* L2)**
+>>> it has the same time complexity as python **O(L1 * L2)**
 
 >> ## C++
 >>> c++'s ``` find() ``` function is the same thing as python's and java's   
->>> it also has the same time complexity **O(L1^L2)**
+>>> it also has the same time complexity **O(L1 * L2)**
 
 > ## Checking for one element
 >> When searching for one element, we can implement a simple search to find the element   
