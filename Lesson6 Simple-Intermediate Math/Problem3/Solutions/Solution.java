@@ -3,9 +3,9 @@ public class Solution {
 	public static void main(String[]args) {
 		Scanner sc = new Scanner(System.in);
 		int x = sc.nextInt(), y = sc.nextInt(), z = sc.nextInt();
-		int a = Math.abs((x - y + z) / 2);
-		int b = Math.abs((y - z + x) / 2);
-		int c = Math.abs((z - x + y) / 2);
+		int a = (x - y + z) / 2;
+		int b = (y - z + x) / 2;
+		int c = (z - x + y) / 2;
 		int ans1 = a + 10; 
 		int ans2 = b + 10;
 		int ans3 = c + 10;
