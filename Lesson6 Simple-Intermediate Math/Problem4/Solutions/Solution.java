@@ -4,6 +4,7 @@ import java.util.*;
         Scanner sc = new Scanner(System.in);
     	  double v = sc.nextInt();
     	  double c = 360 / v;
-    	  System.out.printf("%.6f", c); out.close();
+    	  System.out.printf("%.6f", c); 
+          sc.close();
       }
   }
