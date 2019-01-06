@@ -62,9 +62,10 @@ and [IntelliJ IDEA](https://www.jetbrains.com/idea/) are also good. For eclipse,
 >> [Trees](https://en.wikipedia.org/wiki/Tree_(graph_theory))   
 >> [Cycles](https://en.wikipedia.org/wiki/Cycle_(graph_theory))
 
-> ## 9. Logic 
->> Some simple logic tricks and observations that you might need or want on the CCC   
->> logic is a powerful tool that you have to use alot on the CCC
+> ## 9. Algorithms
+>> Brute Force
+>> Greedy Algorithms
+>> Logic Algorithms
 
 > ## 10. Debugging & Syntax
 >> How to debug your code  
