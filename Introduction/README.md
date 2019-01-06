@@ -63,9 +63,9 @@ and [IntelliJ IDEA](https://www.jetbrains.com/idea/) are also good. For eclipse,
 >> [Cycles](https://en.wikipedia.org/wiki/Cycle_(graph_theory))
 
 > ## 9. Algorithms
->> Brute Force
->> Greedy Algorithms
->> Logic Algorithms
+>> Brute Force   
+>> Greedy Algorithms   
+>> Logic Algorithms   
 
 > ## 10. Debugging & Syntax
 >> How to debug your code  
