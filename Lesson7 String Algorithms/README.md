@@ -7,18 +7,18 @@
 >> ## Python
 >>> python's ``` in ``` function for strings basically checks if one string is in another,     
 >>> or simply, if string ```a``` is a substring of string ```b```  
->>> the speed is about **O(N^2)** time, where N is the size of the string   
+>>> the speed is about **O(L1 * L2)** time, where L1 & L2 are the lengths of the strings is the size of the string   
 >>> A much faster algorithm is the [KMP](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm), but don't worry about
 that for now, as I'm pretty sure its not going to appear in the CCC junior
 
 >> ## Java
 >>> java's ``` contains() ``` function basically does the same thing as the python code above,   
 >>> it checks if string ```a``` contains string ```b```   
->>> it has the same time complexity as python **O(N^2)**
+>>> it has the same time complexity as python **O(L1* L2)**
 
 >> ## C++
 >>> c++'s ``` find() ``` function is the same thing as python's and java's   
->>> it also has the same time complexity **O(N^2)**
+>>> it also has the same time complexity **O(L1^L2)**
 
 > ## Checking for one element
 >> When searching for one element, we can implement a simple search to find the element   
