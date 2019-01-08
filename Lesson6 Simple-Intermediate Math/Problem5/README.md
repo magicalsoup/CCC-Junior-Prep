@@ -1,5 +1,5 @@
 # Problem #5
-> Either go to the pdf file or this [link](https://wcipeg.com/problem/hardquestion) to start the problem.   
+> go to this [link](https://wcipeg.com/problem/hardquestion) to start the problem.   
 > ## Important
 >> ## When submitting on WCIPEG
 >> ## Java users
