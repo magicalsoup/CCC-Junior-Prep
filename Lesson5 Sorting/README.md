@@ -38,8 +38,8 @@
 >>>         self.name = name
 >>>         self.grade = grade
 >>>         self.age = age
->>>     def __repr__(self):
->>>        return repr((self.name, self.grade, self.age))
+>>>     def __lt__(self, other):
+>>>        return self.age < other.age
 >>> ```
 >>> or
 >>> ``` python
