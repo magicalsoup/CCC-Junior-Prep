@@ -6,3 +6,6 @@
 
 > ## Space Complexity
 >> It has a space complexity of **O(W)**
+
+> ## Data Types
+>> A long is needed for this problem
