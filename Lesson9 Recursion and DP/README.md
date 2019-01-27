@@ -259,7 +259,90 @@
 >>> }
 >>> ```
 
-> ## Visited DP
+>> ## Visited DP
+>> - Visited DP is basic marking places you've already visited, kinda of like a visited array
+>> - The idea is simple, you basically mark the places you've visited and use that to quickly compute values and such
+>> - Example
+>>   - You have 3 numbers ```A```, ```B```, and ```C```, ```A``` and ```B``` represent the different size of water containers that you can fill up, and ```C``` is the target amount of water that you want to get, what is the closest amount of water that you can get?
+>>   - We can use dynamic programming to solve this, we could mark each level of water that we get as visisted, and check if we have visited this level of water before, if yes, then we can repeat the process from the level, otherwise no 
+>>   - ### Pseudo Code
+>>      - ```
+>>        dp[0] = 1
+>>        for i, 0....C
+>>           if dp[i] == 1:
+>>              if i + A <= C:
+>>                 dp[i + A] = 1
+>>              if i + B <= C:
+>>                 dp[i + B] = 1;
+>>         ```
+>>   - Then we can loop through the values from ```C``` to 0 and break out of the loop as soon as we see a 1
+>>   - ### Pseudo Code
+>>      - ```
+>>        for i, C....0:
+>>           if dp[i] == 1:
+>>               print i
+>>               break
+>>        ```
+
+>> - ### Python
+
+>>> ```py
+>>> dp[0] = 1
+>>> for i in range(0, C + 1):
+>>>   if dp[i] == 1:
+>>>      if i + A <= C:
+>>>         dp[i + A] = 1
+>>>      if i + B <= C:
+>>>         dp[i + B] = 1
+>>> for i in range(C, -1):
+>>>     if dp[i] == 1:
+>>>        print(i)
+>>>        break
+>>> ```
+
+>> - ### Java
+>>> ```java
+>>> dp[0] = 1;
+>>> for(int i = 0; i <= C; i++) {
+>>>    if(dp[i] == 1){
+>>>       if(i + A <= C) 
+>>>         dp[i + A] = 1;
+>>>       if(i + B <= C)
+>>>         dp[i + B] = 1;
+>>>    }
+>>> }
+>>> for(int i = C; i >= 0; i--) {
+>>>     if(dp[i] == 1) {
+>>>         System.out.println(i);
+>>>         break;
+>>>     }
+>>> }
+>>> ```
+
+>> - ### C++
+>>> ```cpp
+>>> dp[0] = 1;
+>>> for(int i = 0; i <= C; i++) {
+>>>    if(dp[i] == 1){
+>>>       if(i + A <= C) 
+>>>         dp[i + A] = 1;
+>>>       if(i + B <= C)
+>>>         dp[i + B] = 1;
+>>>    }
+>>> }
+>>> for(int i = C; i >= 0; i--) {
+>>>     if(dp[i] == 1) {
+>>>         cout<<i<<endl;
+>>>         break;
+>>>     }
+>>> }
+>>> ```
+
+# Conclusion
+> Procceed to the problems, There are 3 recursion problems and 2 Dynamic programming problems, for the recursion problems, you will need to sign up to [codingbat](https://codingbat.com/java), sorry it doesn't support C++, but you can look at my solutions to determine if your solution is indeed correct
+
+> To sign up, simply just register      
+> The website (again) is [https://codingbat.com/java](https://codingbat.com/java)
 
 
 
