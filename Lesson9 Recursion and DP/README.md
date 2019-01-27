@@ -182,7 +182,86 @@
 
 >> - as we can see from the table, by including N items and having a weight of W, so dp[n][w], which is dp[6][6], we can achieve an answer of 30, thus that is the answer to this problem!
 
->> 
+>> - For more information of above, you could go to this [link](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)
+>> - There is going to be challenge question will you have to modify this, since 2D dp takes way to much space, we can do knapsack dp using 1D
+>> - All we have to do is keep track of the previous row, and nothing more, the following idea can be implemented like this
+
+>> - ```
+>>   for i, 1.. N:
+>>      for j, W, j >= wt[i], j--:
+>>        dp[j] = max(dp[j], dp[j - wt[i]] + v[i])
+>>   ```
+
+>> wt is the array of the size/weight and v is the array of the values
+>> - The proof is left as an exercise to the reader, to better visualize it, you may want to draw out of what the program is doing
+
+>> - Example Programs for 2D and 1D dp
+>> - ### Python
+
+>>> ```py
+>>> # 2D
+>>> for i in range(N):
+>>>   for j in range(W):
+>>>       if i == 0 or j == 0:
+>>>           dp[i][j] = 0
+>>>       else if wt[i] <= j:
+>>>           dp[i][j] = max(v[i] + dp[i][j - wt[i]], dp[i - 1][j]);
+>>>       else:
+>>>           dp[i][j] = dp[i - 1][j];
+>>>
+>>> # 1D
+>>> for i in range(N):
+>>>   for j in range(W, w[i] - 1):
+>>>      dp[j] = max(dp[j], dp[j - wt[i]] + v[i]);
+>>> ```
+
+>> - ### Java
+>>> ```java
+>>> // 2D
+>>> for(int i = 0; i < N; i++){
+>>>     for(int j = 0; j < W; j++) {
+>>>        if( i == 0 || j == 0)
+>>>           dp[i][j] = 0;
+>>>        else if (wt[i] <= j)
+>>>           dp[i][j] = Math.max(v[i] + dp[i][j - wt[i]], dp[i - 1][j]);
+>>>        else
+>>>           dp[i][j] = dp[i - 1][j];
+>>>     }
+>>> }
+>>>
+>>> // 1D
+>>> for(int i = 0; i < N; i++){
+>>>     for(int j = W; j >= wt[i]; j--){
+>>>        dp[j] = Math.max(dp[j], dp[j - wt[i]] + v[i]);
+>>>     }
+>>> }
+>>> ```
+
+>> - ### C++
+>>> ```cpp
+>>> // 2D
+>>> for(int i = 0; i < N; i++){
+>>>     for(int j = 0; j < W; j++) {
+>>>        if( i == 0 || j == 0)
+>>>           dp[i][j] = 0;
+>>>        else if (wt[i] <= j)
+>>>           dp[i][j] = max(v[i] + dp[i][j - wt[i]], dp[i - 1][j]);
+>>>        else
+>>>           dp[i][j] = dp[i - 1][j];
+>>>     }
+>>> }
+>>>
+>>> // 1D
+>>> for(int i = 0; i < N; i++){
+>>>     for(int j = W; j >= wt[i]; j--){
+>>>        dp[j] = max(dp[j], dp[j - wt[i]] + v[i]);
+>>>     }
+>>> }
+>>> ```
+
+> ## Visited DP
+
+
 
 
 
