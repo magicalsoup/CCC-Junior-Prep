@@ -294,7 +294,7 @@
 >>>         dp[i + A] = 1
 >>>      if i + B <= C:
 >>>         dp[i + B] = 1
->>> for i in range(C, -1):
+>>> for i in reversed(range(0, C + 1)):
 >>>     if dp[i] == 1:
 >>>        print(i)
 >>>        break
