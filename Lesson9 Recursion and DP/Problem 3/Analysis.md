@@ -5,7 +5,7 @@
 
 > We start with the original string, then cut off the 1st character each time we recursion it, in java we can use the method ```.substring()```
 
-> Other languages provide similar methods like c++ 's ```.substr()```
+> Other languages provide similar methods like c++ 's ```.substr()```, or python's ```slicing```, ```[1:]```
 
 > then we just have to check if the first character equals the second character. 
 
