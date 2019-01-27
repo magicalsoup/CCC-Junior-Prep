@@ -9,7 +9,7 @@
 > ```
 
 > ## Time Complexity
->> The recursion involved solves this problem in *O(N<sup>2</sup>)* time, but with the low bounds of the test cases, it would pass in a relative short amount of time
+>> The recursion involved solves this problem in **O(N<sup>2</sup>)** time, but with the low bounds of the test cases, it would pass in a relative short amount of time
 
 > ## Space Complexity
->> This problem uses up O(N<sup>2</sup>) space, but with low bounds, it won't be a problem
+>> This problem uses up **O(N<sup>2</sup>)** space, but with low bounds, it won't be a problem
