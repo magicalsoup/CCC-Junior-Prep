@@ -19,5 +19,6 @@
 # DFS
 > it means ```depth first search```
 
-> it seraches through the graph by going  as deep as possible, then go back up and repeat the process
+> it searches through the graph by going as deep as possible, then go back up and repeat the process
 > it does this with the help of recursion
+> It
