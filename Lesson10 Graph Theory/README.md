@@ -16,8 +16,22 @@
 > 3. Disconnected Graphs
 >   - That means there are componenets of the graph that are not connected, meaning there could be multiple trees, or a ```forest```
 
+> ## Ways to store graphs
+>
+
 # DFS
 > it means ```depth first search```
 
-> it seraches through the graph by going  as deep as possible, then go back up and repeat the process
+> it searches through the graph by going  as deep as possible, then go back up and repeat the process
 > it does this with the help of recursion
+
+
+> ```
+> start from the first node
+> mark it as visited
+> if the node is visited, then return
+> for every node the first node is connected
+> dfs the node that is connected to the first node
+> ```
+
+> ## Python
