@@ -25,9 +25,10 @@
 >> greedy as possible, so we give all 3 points to the first test
 >> I'll give you problems that will help you understand more about how a greedy algorithm works
 
-> ## Logic Algorithms
+> ## Logic/Implementation Algorithms
 >> This is a more optimizied alogrithm, where you want to optimize your program, and use logic to help you   
 >> this is entirely up to you to implement, when the situation calls, so I'll leave your understanding of this algorithm up to you
+>> These types of problems just require good implementation skills, basically making the program as the problem described, without other algorithms and etc
 
 > I have alot of algorithm questions prepared for you, proceed to the problems to begin
 >> ## Good Luck!
