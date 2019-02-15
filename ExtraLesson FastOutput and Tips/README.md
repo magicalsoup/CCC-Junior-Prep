@@ -88,7 +88,6 @@
 > typedef pair<int, int> pi;
 > typedef long long ll;
 > typedef pari<ll, ll> pll;
-
 > // cannot use scanf with this template
 > int main() {
 >  cin.sync_with_stdio(0);
