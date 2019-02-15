@@ -15,8 +15,9 @@
 >   - These graphs form a cycle, or loop (you end up where you started)
 > 3. Disconnected Graphs
 >   - That means there are componenets of the graph that are not connected, meaning there could be multiple trees, or a ```forest```
-> 4. Directed v.s Non Directed
+> 4. Directed v.s Undirected
 >   - meaning that either connections are two way or one way
+>   - this means for an undirected graph, you would do ```adj.get(a).add(b); adj.get(b).add(a)```, and for a directed graph, you would only do ```adj.get(a).add(b)```
 
 # Ways to store graphs
 > ## Adjacency List
@@ -25,48 +26,57 @@
 > By the nodes in one's nodes list are the nodes that connect to this node
 
 > ## Example In Java
+
 > ```java
-> ArrayList<ArraysList<Integer>> adj = new ArrayList<ArrayList<Integer>>(); // adjacency list
-> for(int i = 0; i <= 3; i++)
->   adj.add(new ArrayList<Integer>()); // initializing the adjacency list  
-> int a = 1; // node a has an id of 1
-> int b = 2; // node b has an id of 2
-> int c = 3; // node 3 has an id of 3
-> list.get(c).add(b); // meaning c is connected to b
-> list.get(b).add(c); // meaning b is connected to c  
-> list.get(a).add(b); // meaning a is connected to b
-> list.get(b).add(a); // meaning b is connected to a
+> public static void main(String[]args) {
+>
+>   ArrayList<ArraysList<Integer>> adj = new ArrayList<ArrayList<Integer>>(); // adjacency list
+>   for(int i = 0; i <= 3; i++)
+>     adj.add(new ArrayList<Integer>()); // initializing the adjacency list  
+>   int a = 1; // node a has an id of 1
+>   int b = 2; // node b has an id of 2
+>   int c = 3; // node 3 has an id of 3
+>   list.get(c).add(b); // meaning c is connected to b
+>   list.get(b).add(c); // meaning b is connected to c  
+>   list.get(a).add(b); // meaning a is connected to b
+>   list.get(b).add(a); // meaning b is connected to a
 >  
-> // below displays the paths and connectivity of each of the nodes  
-> for (int node = 1; node <= 3; node++) { 
->   System.out.print(node);                              
->   for (int i : adj.get(node)) {
->      System.out.print("--->" + i); 
+>   // below displays the paths and connectivity of each of the nodes  
+>   for (int node = 1; node <= 3; node++) { 
+>     System.out.print(node);                              
+>     for (int i : adj.get(node)) {
+>       System.out.print("--->" + i); 
+>     }
+>     System.out.println();  
 >   }
->   System.out.println();  
-> }
+> }  
 > ```
   
 > ## Example In C++  
+
 > ```cpp
-> vector<int> adj[4]; // adjacency list
-> int a = 1; // node a has an id of 1
-> int b = 2; // node b has an id of 2
-> int c = 3; // node c has an id of 3
-> adj[c].push_back(b); // meaning c is connected to b
-> adj[b].push_back(c); // meaning b is connected to c  
-> adj[a].push_back(b); // meaning a is connected to b
-> adj[b].push_back(a); // meaning b is connected to a  
+> int main() {
+>   vector<int> adj[4]; // adjacency list
+>   int a = 1; // node a has an id of 1
+>   int b = 2; // node b has an id of 2
+>   int c = 3; // node c has an id of 3
+>   adj[c].push_back(b); // meaning c is connected to b
+>   adj[b].push_back(c); // meaning b is connected to c  
+>   adj[a].push_back(b); // meaning a is connected to b
+>   adj[b].push_back(a); // meaning b is connected to a  
 >  
-> // below displays the paths and connectivity of each of the nodes   
-> for(int node = 1; node <= 3; node++) {
->    cout<<node; 
->    for(int i : adj[node]) {
->       cout<<"--->"<<i;  
->    }  
->    cout<<endl;
-> }                             
+>   // below displays the paths and connectivity of each of the nodes   
+>   for(int node = 1; node <= 3; node++) {
+>       cout<<node; 
+>       for(int i : adj[node]) {
+>         cout<<"--->"<<i;  
+>       }  
+>       cout<<endl;
+>   }           
+> }  
 > ```
+  
+
 
 > The output should be
 > ```
@@ -92,52 +102,57 @@
 
 > ## Example In Java
 > ```java
-> int adj[][] = new int[4][4]; // adjacency matrix
+> public static void mai(String[]args) {
+>   int adj[][] = new int[4][4]; // adjacency matrix
 >
-> int a = 1; // node a has an id of 1
-> int b = 2; // node b has an id of 2
-> int c = 3; // node 3 has an id of 3
-> adj[c][b] = 1; // meaning c is connected to b
-> adj[b][c] = 1; // meaning b is connected to c  
-> adj[a][b] = 1; // meaning a is connected to b
-> adj[b][a] = 1; // meaning b is connected to a
+>   int a = 1; // node a has an id of 1
+>   int b = 2; // node b has an id of 2
+>   int c = 3; // node 3 has an id of 3
+>   adj[c][b] = 1; // meaning c is connected to b
+>   adj[b][c] = 1; // meaning b is connected to c  
+>   adj[a][b] = 1; // meaning a is connected to b
+>   adj[b][a] = 1; // meaning b is connected to a
 >  
-> // below displays the paths and connectivity of each of the nodes  
-> for (int node = 1; node <= 3; node++) { 
->   System.out.print(node);                              
->   for (int i = 0; i < adj[node].size(); i++) {
->      if(adj[node][i] = 1) // if they are connected
->         System.out.print("--->" + i); 
+>   // below displays the paths and connectivity of each of the nodes  
+>   for (int node = 1; node <= 3; node++) { 
+>     System.out.print(node);                              
+>     for (int i = 0; i < adj[node].size(); i++) {
+>       if(adj[node][i] == 1) // if they are connected
+>           System.out.print("--->" + i); 
+>     }
+>     System.out.println();  
 >   }
->   System.out.println();  
 > }
 > ```
 
 > ## Example In C++  
 > ```cpp
-> int adj[4][4]; // adjacency matrix
+> int main() {
+>   int adj[4][4]; // adjacency matrix
 > 
-> // initializing the adjacency matrix with 0s
-> for(int i = 0; i < 4; i++)
->   for(int j = 0; j < 4; j++)
->       adj[i][j] = 0;
+>   // initializing the adjacency matrix with 0s
+>   for(int i = 0; i < 4; i++)
+>     for(int j = 0; j < 4; j++)
+>         adj[i][j] = 0;
 >
-> int a = 1; // node a has an id of 1
-> int b = 2; // node b has an id of 2
-> int c = 3; // node c has an id of 3
-> adj[c][b] = 1; // meaning c is connected to b
-> adj[b][c] = 1; // meaning b is connected to c  
-> adj[a][b] = 1; // meaning a is connected to b
-> adj[b][a] = 1; // meaning b is connected to a  
+>   int a = 1; // node a has an id of 1
+>   int b = 2; // node b has an id of 2
+>   int c = 3; // node c has an id of 3
+>   adj[c][b] = 1; // meaning c is connected to b
+>   adj[b][c] = 1; // meaning b is connected to c  
+>   adj[a][b] = 1; // meaning a is connected to b
+>   adj[b][a] = 1; // meaning b is connected to a  
 >  
-> // below displays the paths and connectivity of each of the nodes   
-> for(int node = 1; node <= 3; node++) {
->    cout<<node; 
->    for(int i : adj[node]) {
->       cout<<"--->"<<i;  
->    }  
->    cout<<endl;
-> }                             
+>   // below displays the paths and connectivity of each of the nodes   
+>   for(int node = 1; node <= 3; node++) {
+>     cout<<node; 
+>     for(int i = 0; i < sizeof(adj[node]) / sizeof(adj[node][0]); i++) {
+>         if(adj[node][i] == 1) // if they are connected
+>           cout<<"--->"<<i;  
+>     }  
+>     cout<<endl;
+>   }           
+> }
 > ```
 
 > This will have the same output as the adjacency list, but this form of representation is not favoured, due to its memory usuage
