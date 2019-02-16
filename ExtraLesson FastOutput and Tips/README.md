@@ -3,7 +3,7 @@
 
 # Fast Output
 > ## Python
-> - use ```sys.stdin.readline```
+> - use ```sys.stdin.readline``` and ```sys.stdout.write```
 > - My python template: (will also be a seprate file in this folder)
 
 > ```py
@@ -11,7 +11,7 @@
 > raw_input = sys.stdin.readline
 > all_data = sys.stdin.read().split('\n')
 > def main():
->   print 'Hello'
+>   sys.stdout.write('Hello')
 >
 > main()
 > ```
@@ -93,7 +93,7 @@
 > #define m(x, y) (x + y) / 2
 > typedef pair<int, int> pi;
 > typedef long long ll;
-> typedef pari<ll, ll> pll;
+> typedef pair<ll, ll> pll;
 > // cannot use scanf with this template
 > int main() {
 >  cin.sync_with_stdio(0);
