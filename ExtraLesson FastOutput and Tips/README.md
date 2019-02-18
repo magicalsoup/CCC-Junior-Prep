@@ -69,7 +69,7 @@
 > #define m(x, y) (x + y) / 2
 > typedef pair<int, int> pi;
 > typedef long long ll;
-> typedef pari<ll, ll> pll;
+> typedef pair<ll, ll> pll;
 >
 > int main() {
 >   return 0;
