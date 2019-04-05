@@ -4,7 +4,7 @@
 > 2. DFS
 > 3. BFS
 
-# 1 Type of Graphs
+# Type of Graphs
 > ## Terms
 > - ```Vertices``` or ```nodes```: are basically the dotes or points on the graph
 > - ```Edges```: are the lines connecting the ```Vertices```
