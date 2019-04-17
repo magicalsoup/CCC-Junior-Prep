@@ -2,7 +2,6 @@
 This Problem was made by me, so I'll have handmade test cases for you to try out on your program, sadly there is not an    
 online judge that has this problem to judge your program
 
-## Problem Statement
 Bob saw a question on his ICS test, the question describes a game, where a person tries to    
 guess the number between **1 and 1 000 000 000**,     
 for each failed guess, the person loses **$1000**, and the last guess doesn't count    
