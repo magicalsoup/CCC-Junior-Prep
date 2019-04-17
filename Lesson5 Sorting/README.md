@@ -3,7 +3,7 @@
 - Here I'm going to talk about [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) and sorting with objects
 
 ## Bubble Sort
--Bubble sort is a not really efficient sorting algorithm, but it can be applied to many problems with low bounds, it was used in a CCO question [CCC 1996 Problem 1](https://wcipeg.com/problem/ccc96s2p1), so I highly suggest you learn it.
+- Bubble sort is a not really efficient sorting algorithm, but it can be applied to many problems with low bounds, it was used in a CCO question [CCC 1996 Problem 1](https://wcipeg.com/problem/ccc96s2p1), so I highly suggest you learn it.
 
 ## How does it work?
 - Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order. It has to go through the entire array each time, and it does it for N times, so the time complexity is **O(N * N)** or **O(N ^ 2)**. Geeks for Geeks provides a better explanation, I suggest you read it. [Bubble Sort](https://www.geeksforgeeks.org/bubble-sort/). Lets implement the above algorithm:
