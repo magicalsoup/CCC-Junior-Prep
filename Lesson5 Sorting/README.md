@@ -25,7 +25,7 @@ while isSorted is false:
 ## Sorting With Objects
 - When we sort an object, we need its own comparator, as the language doesn't know how to sort your objects you just implement a comparator in your object class or when you call sort
 ## Examples
-## Python
+### Python
 - Link to source: [Sorting in python](https://docs.python.org/3/howto/sorting.html)
 ``` python
 class Student:
@@ -40,7 +40,7 @@ or
 ``` python
 sorted(student_objects, key=lambda student: student.age)   # sort by age
 ```
-## Java
+### Java
 ```java
 static class Test implements Comparator<Test>{
    int from, to;
@@ -65,7 +65,7 @@ Arrays.sort(array, new Comparator<T>() {
 	}
 });
 ```
-## C++
+### C++
 ``` cpp
 struct T{
   int a;
