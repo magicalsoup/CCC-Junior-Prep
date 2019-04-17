@@ -1,90 +1,88 @@
 # Welcome To Lesson #6!
-> today we are going to talk about some math knowledge!
+- Today we are going to talk about some math knowledge!
 
-> ## Mean, median and Mode
->> ### Mean
->>> the mean is the average of a list
->>> ``` 
->>> 1 2 3 4 5 6 7 8 9 10
->>> ```
->>> Average = sum of numbers divided by the # of numbers   
->>> Sum = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = ``` 55 ```    
->>> The # of numbers is ``` 10 ```, as there are 10 numbers   
->>> So the average is 55 / 10 = ``` 5.5 ```
->>> #### Pseudo code for getting the mean
->>> ```
->>> sum = 0
->>> for element in array
->>>    sum += element
->>> mean = sum / numberOfNumbers
->>> ```
->> ## Median
->>> Takes the middle 1 or 2 numbers, from a sorted list    
->>> if the length of the list is even, take the 2 numbers and take the average   
->>> ``` 1 2 3 4 5 6 7 8 9 10 ```   
->>> as you can see, the list is already sorted
->>> since the length is even, we take the 2 middle numbers   
->>> ``` 1, 2, 3, 4, (5, 6), 7, 8, 9, 10 ```    
->>> get the average (5 + 6) / 2 = ``` 5.5 ```    
->>> as you can see, the median is the same as the mean, but its not always true
->>> #### Pseudo code for getting the median
->>> ```
->>> sort(array)
->>> median
->>> if array is odd:
->>>   median = array[array.length / 2]
->>> if array is even:
->>>   median = (array[array.length / 2 - 1] + array[array.length / 2]) / 2
->>> ```
+## Mean, median and Mode
+### Mean
+the mean is the average of a list
+``` 
+1 2 3 4 5 6 7 8 9 10
+```
+- Average = sum of numbers divided by the # of numbers
+- Sum = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = ``` 55 ```    
+- The # of numbers is ``` 10 ```, as there are 10 numbers, so the average is 55 / 10 = ``` 5.5 ```
+#### Pseudo code for getting the mean
+```
+sum = 0
+for element in array
+   sum += element
+mean = sum / numberOfNumbers
+```
 
->> ## Mode
->>> its the most occuring number    
->>> ``` 1 1 1 2 2 2 2 3 3 8 ```   
->>> the most occuring number is 2, so the mode is 2. Note that there could be multiple modes
->>> #### Pseudo code
->>> ```
->>> freq = []
->>> for element in array:
->>>   freq of element + 1
->>> mode = element of maximum occurence in freq
->>> ```
+### Median
+- Takes the middle 1 or 2 numbers, from a sorted list if the length of the list is even, take the 2 numbers and take the average   
+``` 1 2 3 4 5 6 7 8 9 10 ```   
+- as you can see, the list is already sorted, since the length is even, we take the 2 middle numbers.  
+``` 1, 2, 3, 4, (5, 6), 7, 8, 9, 10 ```    
+- Get the average (5 + 6) / 2 = ``` 5.5 ```
+- as you can see, the median is the same as the mean, but its not always true.
 
-> ## Math Fomulas
->> ### Regular Shapes
->>> |Shape    | Formula For Area| Formula For Volume| Formula For Perimeter|
->>> |---------|:---------------:|:-----------------:|:--------------------:|
->>> |Square| length * width or length^2| N/A| 4 * length|
->>> |Rectangle| length * width| N/A| 2 * (length + width)|
->>> |Trapezoid| 1/2 * (bottom + top) * height| N/A| bottom + top + 2 * sides|
->>> |Circle| r^2 * π| N/A| 2πr or πD| 
->>> |Triangle| base * height / 2| N/A| side1 + side2 + side3|
->>> |Hexagon| 6 * (side^2√3)/4| N/A| 6 * side|
->>> |Any Prism|Add up the areas of its faces|baseArea * height| N/A|
->>> |Any Pyramid| Add up the area of its base and sides| 1/3 * baseArea * height| N/A|
->>> |Cone| πr(r+√(h^2+r^2))| 1/3 * baseArea * height| N/A|
->>> |Sphere|4 * πr^2|4/3 * πr^3| N/A|
+#### Pseudo code for getting the median
+```
+sort(array)
+median
+if array is odd:
+  median = array[array.length / 2]
+if array is even:
+  median = (array[array.length / 2 - 1] + array[array.length / 2]) / 2
+```
 
->> ### Special Formulas
->>> #### Equilateral triangle
->>>> let s be one of its sides   
->>>> Area = ```(s^2√3)/4```   
+### Mode
+- Its the most occuring number.
+``` 1 1 1 2 2 2 2 3 3 8 ```   
+- the most occuring number is 2, so the mode is 2. Note that there could be multiple modes
+#### Pseudo code
+```
+freq = []
+for element in array:
+  freq of element + 1
+mode = element of maximum occurence in freq
+```
 
->>> #### Pythogorean
->>>> let a and b represent the opposite and adjacent, c be the hypotenuese   
->>>> ```a^2 + b^2 = c^2```
+### Math Fomulas
+#### Regular Shapes
+- |Shape    | Formula For Area| Formula For Volume| Formula For Perimeter|
+- |---------|:---------------:|:-----------------:|:--------------------:|
+- |Square| length * width or length^2| N/A| 4 * length|
+- |Rectangle| length * width| N/A| 2 * (length + width)|
+- |Trapezoid| 1/2 * (bottom + top) * height| N/A| bottom + top + 2 * sides|
+- |Circle| r^2 * π| N/A| 2πr or πD| 
+- |Triangle| base * height / 2| N/A| side1 + side2 + side3|
+- |Hexagon| 6 * (side^2√3)/4| N/A| 6 * side|
+- |Any Prism|Add up the areas of its faces|baseArea * height| N/A|
+- |Any Pyramid| Add up the area of its base and sides| 1/3 * baseArea * height| N/A|
+- |Cone| πr(r+√(h^2+r^2))| 1/3 * baseArea * height| N/A|
+- |Sphere|4 * πr^2|4/3 * πr^3| N/A|
 
->>> #### Arithmetic
->>>> let A1 the first term, d be the difference between each term, An be the last term, and n be the number of terms, and Sa be the sum
-of this sequence   
->>>> ```An = A1 + (n - 1) * d ```   
->>>> ``` Sa = (A1 + An) * n / 2```
+### Special Formulas
+#### Equilateral triangle
+- Let s be one of its sides   
+Area = ```(s^2√3)/4```   
 
->> ### Degrees
->>> #### Sum of interior angle theorem
->>>> let n be the number of sides, the interior angles sum is   
->>>> ```(n - 2) * 180```   
->>> ### Triangle Angle Sum
->>>> a triangle interior angles must all add up to **180 degress**
+#### Pythogorean
+- Let a and b represent the opposite and adjacent, c be the hypotenuese   
+```a^2 + b^2 = c^2```
+
+#### Arithmetic
+- Let A1 the first term, d be the difference between each term, An be the last term, and n be the number of terms, and Sa be the sum of this sequence
+```An = A1 + (n - 1) * d ```   
+``` Sa = (A1 + An) * n / 2```
+
+### Degrees
+#### Sum of interior angle theorem
+- Let n be the number of sides, the interior angles sum is   
+```(n - 2) * 180```   
+### Triangle Angle Sum
+- A triangle interior angles must all add up to **180 degress**
 
 >> ### Coordinates / Points
 >>> A point is defined by points x, y    
