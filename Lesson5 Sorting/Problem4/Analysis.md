@@ -5,7 +5,7 @@
 - **N &le; 20**, so this will definetly pass in time
 
 ## Memory Limit
-- A array of 20 integers is well under the memory limit
+- A array of **20** integers is well under the memory limit
 
 ## Data Types
 - A integer data type will suffice
