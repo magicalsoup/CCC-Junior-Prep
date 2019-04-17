@@ -12,7 +12,7 @@
 ## C++
 - fast language, but lower level than java and python, so a bit harder to code in, but great language for higher level contests
 
-## Sources
+# Sources
 - [GeeksForGeeks](https://www.geeksforgeeks.org/)
   - Really good place to learn alot of useful algorithms
 
