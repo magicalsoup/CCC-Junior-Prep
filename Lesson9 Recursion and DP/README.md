@@ -1,6 +1,6 @@
 # Welcome to Lesson # 9!
 
-> Today we are going to talk about recursion! (and possibly dp)
+- Today we are going to talk about recursion! (and possibly dp)
 
 # Recursion
 
