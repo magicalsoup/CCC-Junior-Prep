@@ -35,7 +35,7 @@ print(s1.teacher)
 
 ## Java
 ``` java
-- static class Student{}
+static class Student{}
 ```
 This is an object, you can have many other stuffs inside of this object, for example:
 ``` java
