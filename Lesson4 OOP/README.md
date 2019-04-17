@@ -1,10 +1,10 @@
 # Welcome to Lesson # 4!
 Today we will be talking about how to use objects! Today's lesson will also be very short, as you have to learn the syntax of your program online, either documentation or a tutorial, I'll only cover some basic stuffs here
 
-- ## Python
-- ```python 
-- class Student:
-- ```
+## Python
+```python 
+class Student:
+```
 - this is an object, you can have many other stuffs inside of this object, for example:
 - ``` python
 - class Student:
@@ -20,7 +20,7 @@ Today we will be talking about how to use objects! Today's lesson will also be v
 -    self.grade = grade
 -    self.teacher = teacher
 - ```
--### Example program
+### Example program
 - ```python
 - class Student
 -  def __init__(self, name, grade, teacher):
