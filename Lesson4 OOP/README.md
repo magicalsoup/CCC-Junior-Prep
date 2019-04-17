@@ -1,18 +1,18 @@
 # Welcome to Lesson # 4!
-Today we will be talking about how to use objects! Today's lesson will also be very short, as you have to learn the syntax of your program online, either documentation or a tutorial, I'll only cover some basic stuffs here
+- Today we will be talking about how to use objects! Today's lesson will also be very short, as you have to learn the syntax of your program online, either documentation or a tutorial, I'll only cover some basic stuffs here
 
 ## Python
 ```python 
 class Student:
 ```
-This is an object, you can have many other stuffs inside of this object, for example:
+- This is an object, you can have many other stuffs inside of this object, for example:
 ``` python
 class Student:
  name 
  grade 
  teacher
 ```
-We can also assign stuff to these variables:
+- We can also assign stuff to these variables:
 ``` python
 class Student:
  def __init__(self, name, grade, teacher):
@@ -37,13 +37,13 @@ print(s1.teacher)
 ``` java
 static class Student{}
 ```
-This is an object, you can have many other stuffs inside of this object, for example:
+- This is an object, you can have many other stuffs inside of this object, for example:
 ``` java
 static class Student{
  String name, teacher; int grade;
 }
 ```
-We can assign stuff to these variables:
+- We can assign stuff to these variables:
 ``` java
 static class Student {
    String name, teacher; int grade;
@@ -75,13 +75,13 @@ public static void main(String[]args){
 ``` cpp
 struct Student {}
 ```
-This is an object, you can have many other stuffs inside of this object, for example:
+- This is an object, you can have many other stuffs inside of this object, for example:
 ``` cpp
 struct Student{
   String name, teacher; int grade;
 }
 ```
-To assign stuff to these variables, you need to assign them in the main, or you can preset them in the struct, the implementation is left to the reader.
+- To assign stuff to these variables, you need to assign them in the main, or you can preset them in the struct, the implementation is left to the reader.
 ### Example Program
 ``` cpp
 struct Student{
@@ -96,5 +96,5 @@ int main(){
    return 0;
 }
 ```
-That's pretty much it, you can put methods in there, whatever you want, the rest of it is for you to learn by yourself, or you can look up tutortials online that go deeper into objects and classes. I'll explain more along the way, in other lessons.
+- That's pretty much it, you can put methods in there, whatever you want, the rest of it is for you to learn by yourself, or you can look up tutortials online that go deeper into objects and classes. I'll explain more along the way, in other lessons.
 
