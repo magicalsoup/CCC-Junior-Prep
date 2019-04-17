@@ -12,14 +12,14 @@ class Student:
  grade 
  teacher
 ```
-- we can also assign stuff to these variables 
-- ``` python
-- class Student:
--  def __init__(self, name, grade, teacher):
--    self.name = name
--    self.grade = grade
--    self.teacher = teacher
-- ```
+We can also assign stuff to these variables 
+``` python
+class Student:
+ def __init__(self, name, grade, teacher):
+   self.name = name
+   self.grade = grade
+   self.teacher = teacher
+```
 ### Example program
 - ```python
 - class Student
