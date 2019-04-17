@@ -75,14 +75,13 @@ public static void main(String[]args){
 ``` cpp
 struct Student {}
 ```
-this is an object, you can have many other stuffs inside of this object, for example:
+This is an object, you can have many other stuffs inside of this object, for example:
 ``` cpp
 struct Student{
   String name, teacher; int grade;
 }
 ```
-to assign stuff to these variables, you need to assign them in the main, or you can preset them in the struct, the implementation   
-is left to the reader
+To assign stuff to these variables, you need to assign them in the main, or you can preset them in the struct, the implementation is left to the reader.
 ### Example Program
 ``` cpp
 struct Student{
@@ -97,7 +96,5 @@ int main(){
    return 0;
 }
 ```
-That's pretty much it, you can put methods in there, whatever you want, the rest of it is for you to learn by yourself, or you can   
-look up tutortials online that go deeper into objects and classes    
-I'll explain more along the way, in other lessons
+That's pretty much it, you can put methods in there, whatever you want, the rest of it is for you to learn by yourself, or you can look up tutortials online that go deeper into objects and classes. I'll explain more along the way, in other lessons.
 
