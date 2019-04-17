@@ -5,13 +5,13 @@ Today we will be talking about how to use objects! Today's lesson will also be v
 ```python 
 class Student:
 ```
-- this is an object, you can have many other stuffs inside of this object, for example:
-- ``` python
-- class Student:
--  name 
--  grade 
--  teacher
-- ```
+This is an object, you can have many other stuffs inside of this object, for example:
+``` python
+class Student:
+ name 
+ grade 
+ teacher
+```
 - we can also assign stuff to these variables 
 - ``` python
 - class Student:
