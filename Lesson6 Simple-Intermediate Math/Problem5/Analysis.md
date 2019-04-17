@@ -1,5 +1,5 @@
 # Analysis
-- Let **t<sub>1</sub>** be the time it takes for the stone to hit the bottom of the well. The remaining time taken by the sound to climb back up is **t-t<sub>1</sub>*8. 
+- Let **t<sub>1</sub>** be the time it takes for the stone to hit the bottom of the well. The remaining time taken by the sound to climb back up is **t-t<sub>1</sub>**. 
 - Let the depth of the well be **x**.
 - You will get **x = [(gt<sub>1</sub>)<sup>2</sup>]/2** and **x = c(t-t<sub>1</sub>)**.
 - Solving the equation for **x** will give you the depth of the well
