@@ -36,7 +36,7 @@
 >>> This depends on different situations, but generally:   
 
 >>> ### For Loops
->>>> Find out how many **nested** for loops you have, having n and m as a bound, if you have to for loops with limits of n and m   
+>>>> Find out how many **nested** for loops you have, having n and m as a bound, if you have two for loops with limits of n and m   
 >>>> you get **O(n * m)** time complexity   
 >>>> when you have 3 nested for loops with n as a limit   
 >>>> you get **O(n * n * n)**, or **O(n ^ 3)** complexity
