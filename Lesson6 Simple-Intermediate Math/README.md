@@ -50,18 +50,18 @@ mode = element of maximum occurence in freq
 
 ### Math Fomulas
 #### Regular Shapes
-- |Shape    | Formula For Area| Formula For Volume| Formula For Perimeter|
-- |---------|:---------------:|:-----------------:|:--------------------:|
-- |Square| length * width or length^2| N/A| 4 * length|
-- |Rectangle| length * width| N/A| 2 * (length + width)|
-- |Trapezoid| 1/2 * (bottom + top) * height| N/A| bottom + top + 2 * sides|
-- |Circle| r^2 * π| N/A| 2πr or πD| 
-- |Triangle| base * height / 2| N/A| side1 + side2 + side3|
-- |Hexagon| 6 * (side^2√3)/4| N/A| 6 * side|
-- |Any Prism|Add up the areas of its faces|baseArea * height| N/A|
-- |Any Pyramid| Add up the area of its base and sides| 1/3 * baseArea * height| N/A|
-- |Cone| πr(r+√(h^2+r^2))| 1/3 * baseArea * height| N/A|
-- |Sphere|4 * πr^2|4/3 * πr^3| N/A|
+|Shape    | Formula For Area| Formula For Volume| Formula For Perimeter|
+|---------|:---------------:|:-----------------:|:--------------------:|
+|Square| length * width or length^2| N/A| 4 * length|
+|Rectangle| length * width| N/A| 2 * (length + width)|
+|Trapezoid| 1/2 * (bottom + top) * height| N/A| bottom + top + 2 * sides|
+|Circle| r^2 * π| N/A| 2πr or πD| 
+|Triangle| base * height / 2| N/A| side1 + side2 + side3|
+|Hexagon| 6 * (side^2√3)/4| N/A| 6 * side|
+|Any Prism|Add up the areas of its faces|baseArea * height| N/A|
+|Any Pyramid| Add up the area of its base and sides| 1/3 * baseArea * height| N/A|
+|Cone| πr(r+√(h^2+r^2))| 1/3 * baseArea * height| N/A|
+|Sphere|4 * πr^2|4/3 * πr^3| N/A|
 
 ### Special Formulas
 #### Equilateral triangle
