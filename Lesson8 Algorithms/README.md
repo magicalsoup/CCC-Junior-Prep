@@ -3,7 +3,7 @@
 
 ## Brute Force
 - Brute force is just literally trying out everything, its like in a test, you try every possible answer instead of solving it.   
-- Though not practical in real life tests, brute force is a really good algorithm for solving alot of problems in competitve programming, it might not be the fastest way to do it, but it gets the job done, and is alot easier to implement than the optimizied way    
+- Though not practical in real life tests, brute force is a really good algorithm for solving alot of problems in competitve programming, it might not be the fastest way to do it, but it gets the job done, and is alot easier to implement than the optimizied way.    
 
 ## Example
 - Try to find the sum of the numbers 1 to ten:    
