@@ -37,7 +37,7 @@ if array is even:
 ```
 
 ### Mode
-- Its the most common number:    
+- It's the most common number:    
 ``` 1 1 1 2 2 2 2 3 3 8 ```   
 - The most common number is 2, so the mode is 2. Note that there could be multiple modes.
 #### Pseudo code
