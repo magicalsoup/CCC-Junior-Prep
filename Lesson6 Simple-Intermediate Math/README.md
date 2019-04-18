@@ -96,40 +96,7 @@ Area = ```(s^2√3)/4```
 ### Absolute Value
 - Gives the full value of an value, so negatives turn positive and positive stays positive   
 - Example ```-3``` becomes ```3``` and ```4``` becomes ```4```, absolute value is represented using ```|x|```, where x is an number.
-## System of equations
-- It's a set of equations given to you to solve for one or more variables in the equations.
-### Elimination
-- You try to eliminate a variable by using a common variable with the same coefficient from 2 equations by using ``` +-/* ``` etc.
-- Given a system:
-```
-a + 2b = 7 (1)
-a + 3b = 9 (2)
-```
-- You subtract (1) from (2) you get:
-```
-   a + 3b = 9
--  a + 2b = 7
--------------
-    b = 2
-```
-- Then just use that knowledge to solve for ```a```.
-### Substitution
-- You try to eliminate a variable by substituting variables in other equations.
-- Given a system:
-``` 
-a + 3b = 9 (1)
-a + 2b = 7 (2)
-```
-- You rearrange the equations:
-``` 
-a = 9 - 3b (3)
-a = 7 - 2b (4)
-```
-- Notice how they both equal to ```a```, we can rewrite the system like this:
-```
-9 - 3b = 7 - 2b
-```
-- Now solve for ```b``` and you get ```2``` and use that knowledge to solve ```a```.
+
 ## Using math related stuff in programming languages
 ### Python
 - Import the math directory for high / advanced math methods / functions
