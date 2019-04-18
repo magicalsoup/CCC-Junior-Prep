@@ -19,12 +19,12 @@ mean = sum / numberOfNumbers
 ```
 
 ### Median
-- Takes the middle 1 or 2 numbers, from a sorted list if the length of the list is even, take the 2 numbers and take the average:
+- Takes the middle 1 or 2 numbers, from a sorted list if the length of the list is even, take the 2 numbers and take the average:    
 ``` 1 2 3 4 5 6 7 8 9 10 ```
-- As you can see, the list is already sorted, since the length is even, we take the 2 middle numbers.
+- As you can see, the list is already sorted, since the length is even, we take the 2 middle numbers:    
 ``` 1, 2, 3, 4, (5, 6), 7, 8, 9, 10 ```
-- Get the average (5 + 6) / 2 = ``` 5.5 ```
-- As you can see, the median can be the same as the mean, but its not always true.
+- Get the average (5 + 6) / 2 = ``` 5.5 ```.
+- As you can see, the median can be the same as the mean, but it's not always true.
 
 #### Pseudo code for getting the median
 ```
@@ -37,9 +37,9 @@ if array is even:
 ```
 
 ### Mode
-- Its the most occuring number:
+- Its the most common number:    
 ``` 1 1 1 2 2 2 2 3 3 8 ```   
-- The most occuring number is 2, so the mode is 2. Note that there could be multiple modes.
+- The most common number is 2, so the mode is 2. Note that there could be multiple modes.
 #### Pseudo code
 ```
 freq = []
@@ -65,21 +65,21 @@ mode = element of maximum occurence in freq
 
 ### Special Formulas
 #### Equilateral triangle
-- Let s be one of its sides:
+- Let s be one of its sides:    
 Area = ```(s^2√3)/4```   
 
 #### Pythogorean
-- Let a and b represent the opposite and adjacent, c be the hypotenuese:
+- Let a and b represent the opposite and adjacent, c be the hypotenuese:    
 ```a^2 + b^2 = c^2```
 
 #### Arithmetic
-- Let A1 the first term, d be the difference between each term, An be the last term, and n be the number of terms, and Sa be the sum of this sequence:
+- Let A1 the first term, d be the difference between each term, An be the last term, and n be the number of terms, and Sa be the sum of this sequence:    
 ```An = A1 + (n - 1) * d ```   
 ``` Sa = (A1 + An) * n / 2```
 
 ### Degrees
 #### Sum of interior angle theorem
-- Let n be the number of sides, the interior angles sum is:
+- Let n be the number of sides, the interior angles sum is:    
 ```(n - 2) * 180```
 #### Triangle Angle Sum
 - A triangle interior angles must all add up to **180 degress**.
@@ -87,7 +87,7 @@ Area = ```(s^2√3)/4```
 ### Coordinates / Points
 - A point is defined by points (x, y) where x is the x-axis, on the bottom and y is the y-axis, the vertical one.
 #### Slope
-- A slope is equal to ```rise over run```, or ``` delta y / delta x ```
+- A slope is equal to ```rise over run```, or ``` delta y / delta x ```.
 #### Distance Formula
 - Let x1, y1 be a point and x2, y2 be another point    
 ```Distance = √((y2 - y1)^2 + (x2 - x1)^2)```
@@ -97,7 +97,7 @@ Area = ```(s^2√3)/4```
 - Gives the full value of an value, so negatives turn positive and positive stays positive   
 - Example ```-3``` becomes ```3``` and ```4``` becomes ```4```, absolute value is represented using ```|x|```, where x is an number.
 ## System of equations
-- It's a set of equations given to you to solve for one or more variables.
+- It's a set of equations given to you to solve for one or more variables in the equations.
 ### Elimination
 - You try to eliminate a variable by using a common variable with the same coefficient from 2 equations by using ``` +-/* ``` etc.
 - Given a system:
