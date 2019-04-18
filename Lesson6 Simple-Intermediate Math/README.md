@@ -89,7 +89,7 @@ Area = ```(s^2√3)/4```
 #### Slope
 - A slope is equal to ```rise over run```, or ``` delta y / delta x ```.
 #### Distance Formula
-- Let x1, y1 be a point and x2, y2 be another point    
+- Let x1, y1 be a point and x2, y2 be another point:    
 ```Distance = √((y2 - y1)^2 + (x2 - x1)^2)```
 
 
