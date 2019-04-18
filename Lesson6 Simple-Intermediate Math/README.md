@@ -84,73 +84,72 @@ Area = ```(s^2√3)/4```
 ### Triangle Angle Sum
 - A triangle interior angles must all add up to **180 degress**
 
->> ### Coordinates / Points
->>> A point is defined by points x, y    
->>> x is the x - axis, on the bottom and y is the y - axis, the vertical one
->>> #### Slope
->>>> a slope is equal to ```rise over run```, or ``` change in y / change in x ```   
->>> #### Distance Formula
->>>> let x1, y1 be a point and x2, y2 be another point    
->>> ```Distance = √((y2 - y1)^2 + (x2 - x1)^2)```
+### Coordinates / Points
+- A point is defined by points (x, y) - x is the x-axis, on the bottom and y is the y-axis, the vertical one
+#### Slope
+- A slope is equal to ```rise over run```, or ``` change in y / change in x ```   
+#### Distance Formula
+- Let x1, y1 be a point and x2, y2 be another point    
+```Distance = √((y2 - y1)^2 + (x2 - x1)^2)```
 
->> ### Absolute Value
->>> gives the full value of an value, so negatives turn positive and positive stays positive   
->>> Example ```-3``` becomes ```3``` and ```4``` becomes ```4```, absolute value is represented using ```|x|```, where x is an number
-> # System of equations
-> its a number of equations and the point is for you to solve the missing values / variables in the equations
->> ## Elimination
->>> you try to eliminate a variable but using eliminating variables between 2 equations by using ``` +-/* ``` etc   
->>> given a system:    
->>> ```
->>> a + 2b = 7 (1)
->>> a + 3b = 9 (2)
->>> ```
->>> you subtract (1) from (2) you get    
->>> ```
->>>    a + 3b = 9
->>> -  a + 2b = 7
->>> -------------
->>>     b = 2
->>> ```
->>> then just use that knowledge to solve for ```a```
->> ## Substitution
->>> you try to eliminate a variable by substituting variables in other equations   
->>> given a system:
->>> ``` 
->>> a + 3b = 9 (1)
->>> a + 2b = 7 (2)
->>> ```
->>> you rearrange the equations
->>> ``` 
->>> a = 9 - 3b (3)
->>> a = 7 - 2b (4)
->>> ```
->>> notice how they both equal to ```a```, we can rewrite the system like this
->>> ```
->>> 9 - 3b = 7 - 2b
->>> ```
->>> now solve for ```b``` and you get ```2```   
->> and use that knowledge to solve ```a```
-> ## Using math related stuff in programming languages
->> ### Python
->>> import the math directory for high / advanced math methods / functions
->> ### Java
->>> ``` java 
->>> import java.util.*
->>> ``` 
->>> is all you need, the java math import 
->>> ``` java
->>> import java.math.*
->>> ``` 
->>> basically just imports the ```BigInteger``` class
->> ### C++
->>> import either the 
->>> ``` cpp 
->>> #include<math> 
->>> ```
->>> or
->>> ``` cpp
->>> #include<bits/stdc++.h>
->>> ```
->>> directories and you should be good to go
->> #### Please read up on documentations of each function / method if you are not sure on how they do things
+
+### Absolute Value
+Gives the full value of an value, so negatives turn positive and positive stays positive   
+- Example ```-3``` becomes ```3``` and ```4``` becomes ```4```, absolute value is represented using ```|x|```, where x is an number
+# System of equations
+- It's a set of equations given to you to solve for one or more variables.
+## Elimination
+- You try to eliminate a variable but using eliminating variables between 2 equations by using ``` +-/* ``` etc   
+- Given a system:    
+```
+a + 2b = 7 (1)
+a + 3b = 9 (2)
+```
+- You subtract (1) from (2) you get    
+```
+   a + 3b = 9
+-  a + 2b = 7
+-------------
+    b = 2
+```
+- then just use that knowledge to solve for ```a```
+## Substitution
+- You try to eliminate a variable by substituting variables in other equations.
+- Given a system:
+``` 
+a + 3b = 9 (1)
+a + 2b = 7 (2)
+```
+- You rearrange the equations
+``` 
+a = 9 - 3b (3)
+a = 7 - 2b (4)
+```
+- notice how they both equal to ```a```, we can rewrite the system like this
+```
+9 - 3b = 7 - 2b
+```
+- Now solve for ```b``` and you get ```2``` and use that knowledge to solve ```a```
+## Using math related stuff in programming languages
+### Python
+- Import the math directory for high / advanced math methods / functions
+### Java
+``` java 
+import java.util.*
+``` 
+- ...is all you need, the java math import:
+``` java
+import java.math.*
+``` 
+- basically just imports the ```BigInteger``` class.
+### C++
+- Import either the 
+``` cpp 
+#include<math> 
+```
+or
+``` cpp
+#include<bits/stdc++.h>
+```
+- directories and you should be good to go.
+#### Please read up on documentations of each function / method if you are not sure on how they do things
