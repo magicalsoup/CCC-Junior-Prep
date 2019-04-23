@@ -17,7 +17,7 @@
 - This is just a example of brute force, it may seem that the formula is easier and more efficient, but for harder problems it might just be better to use brute force.
 
 ## Greedy Algorithms
-- This algorithm is when you become very greedy, its kinda hard to explain, but its very easy to understand  given 3 tests, each with 7 / 10 marks, you have 3 extra marks, the final mark is the average of your 3 tests, how will you useyour 3 marks? Even though the result is the same, some people might allocate 1 point in each, but a greedy algorithm is to be greedy as possible, so we give all 3 points to the first test.
+- This algorithm is when you become very greedy, its kinda hard to explain, but its very easy to understand  given 3 tests, each with 7 / 10 marks, you have 3 extra marks, the final mark is the average of your 3 tests, how will you use your 3 marks? Even though the result is the same, some people might allocate 1 point in each, but a greedy algorithm is to be greedy as possible, so we give all 3 points to the first test.
 - I'll give you problems that will help you understand more about how a greedy algorithm works.
 
 ## Logic/Implementation Algorithms
